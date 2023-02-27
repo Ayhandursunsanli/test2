@@ -1,5 +1,5 @@
 /*! SVG Türkiye Haritası | MIT Lisans | dnomak.com */
-// hello
+// hello 
 // function svgturkiyeharitasi() {
 //     const element = document.querySelector('#svg-turkiye-haritasi');
 //     const info = document.querySelector('.il-isimleri');
