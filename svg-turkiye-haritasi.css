@@ -1,0 +1,92 @@
+/*! SVG Türkiye Haritası | CSS | MIT Lisans | dnomak.com */
+
+.svg-turkiye-haritasi {
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+  }
+  .svg-turkiye-haritasi svg {
+    width: 100%;
+    height: auto;
+  }
+  .il-isimleri {
+    position: absolute;
+    z-index: 2;
+  }
+  .il-isimleri div {
+    font-family: 'Open Sans';
+    display: inline-block;
+    background: #1094F6;
+    color: #fff;
+    padding: 8px 16px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+  }
+  /* #svg-turkiye-haritasi path {
+    cursor: pointer;
+    fill: #222;
+  } */
+
+  #svg-turkiye-haritasi path:hover {
+    fill: #1094F6;
+  }
+  #guney-kibris {
+    pointer-events: none;
+  }
+
+  .kullanici_alani{
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .kullanici_alani form{
+    display: inline-flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 1rem;
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+
+  }
+
+  .kullanici_alani form .sor{
+    border-radius: 5px;
+    background-color:crimson;
+    width: 90%;
+    margin-top: 1rem;
+    color: white;
+  }
+
+  .kullanici_alani form .cevap{
+    border-radius: 5px;
+    background-color:crimson;
+    color: white;
+    width: 90%;
+    margin-top: .5rem;
+  }
+
+  .kullanici_alani form label{
+    margin-top: 1rem;
+  }
+
+  .kullanici_alani form .tahmin_et{
+    border-radius: 5px;
+    background-color: #fff;
+    padding: .5rem;
+    width: 90%;
+    margin-top: .5rem;
+  }
+
+  .alert{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 70%;
+    display: none;
+  }
